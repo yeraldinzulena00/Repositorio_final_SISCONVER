@@ -1,0 +1,245 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Krub', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+
+    --a: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    --b: linear-gradient(to bottom, #051937, #003f64, #00698e, #0097b3, #00c6cf);
+    --azul: rgb(31, 210, 216);
+    --blaco:  #fff;
+    --box: 12px 10px 20px 8px rgba(51, 52, 53, 0.7);
+    --color_letra:#56008c;
+}
+
+
+
+
+
+
+
+
+@font-face{
+
+    font-family:'Krub';
+    src:url('/assets/Fuentes/Krub-ExtraLightItalic.ttf');
+    font-weight: 900px;
+    font-style:italic;
+    font-stretch: condensed;
+    unicode-range: "U+0-10FFFF";
+}
+
+
+
+
+
+
+
+
+nav{
+    font-family: 'Krub';
+    background: var(--blaco);
+    box-shadow: var(--box);
+   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub';
+   
+   
+
+
+}
+
+main {
+ 
+    font-family: 'Krub';
+}
+
+
+section{
+    background-color: #fff;
+
+font-family: 'Krub';
+
+}
+footer {
+    background-color: var(--azul);
+    font-size: 2.8rem;
+    font-family: 'Krub', sans-serif;
+}
+
+/* Login */
+
+.Contenedor--login {
+
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Krub';
+
+
+}
+
+
+.Contenedor__login--Formulario {
+
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 12px 10px 20px 8px rgba(179, 182, 185, 0.7);
+color: var(--color_letra);
+    border: solid 3px rgba(179, 182, 185, 0.548);
+    font-family: 'Krub';
+}
+/*usuarios*/
+.contenedor_form_usuarios {
+    width: 700px;
+    height: 600px;
+    background-color: #fff;
+font-size: medium;
+    font-family: 'Krub', sans-serif;
+    box-shadow: 12px 10px 20px 8px rgba(51, 52, 53, 0.7);
+}
+.contenedor_form_usuarios label {
+   
+    color:var(--color_letra) ;
+    
+}
+
+/*panel*/
+.usu_a {
+    box-shadow: 4px 4px 4px 4px rgba(220, 57, 18, 0.7);
+    transition: 1s linear;
+}
+
+.usu_a:hover {
+    box-shadow: 4px 4px 4px 4px rgba(168, 255, 80, 0.7);
+    transform: scale(.9);
+
+}
+
+.usu_2 {
+    box-shadow: 4px 4px 4px 4px rgba(255, 153, 0, 0.7);
+    transition: 1s linear;
+}
+
+.usu_2:hover {
+    box-shadow: 4px 4px 4px 4px rgba(223, 53, 253, 0.886);
+    transform: scale(.9);
+}
+
+.usu_3 {
+    box-shadow: 4px 4px 4px 4px rgba(51, 102, 204, 0.7);
+    transition: 1s linear;
+}
+
+.usu_3:hover {
+    box-shadow: 4px 4px 4px 4px rgba(255, 102, 161, 0.7);
+    transform: scale(.9);
+}
+
+.usu_4 {
+    box-shadow: 4px 4px 4px 4px rgba(16, 150, 24, 0.7);
+    transition: 1s linear;
+}
+
+.usu_4:hover {
+    box-shadow: 4px 4px 4px 4px rgba(255, 37, 37, 0.862);
+    transform: scale(.9);
+}
+
+.usu_5 {
+    box-shadow: 4px 4px 4px 4px rgba(153, 0, 153, 0.7);
+    transition: 1s linear;
+}
+
+.usu_5:hover {
+    box-shadow: 4px 4px 4px 4px rgba(79, 220, 255, 0.899),
+        0px 0px 4px 4px rgb(237, 100, 225);
+    transform: scale(.9);
+}
+
+.usu_c {
+    transition: 1s linear;
+}
+
+.usu_c:hover {
+    box-shadow: 4px 4px 4px 4px rgba(79, 220, 255, 0.899),
+        0px 0px 4px 4px rgb(237, 100, 225);
+    transform: scale(.9);
+}
+
+/*Home */
+
+
+#grafica{
+    max-width: 400px;
+    max-height: 400px;
+    font-family: 'Krub';
+}
+#myChart{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+
+
+
+/*Registro*/
+.Contenedor__Registro--Formulario{
+
+    height: 450px;
+    background-color: #ffffff;
+   
+} 
+
+.columna__fo{
+
+    height: 100%;
+}
+.columna__fo label{
+    font-size: medium;
+
+}
+/*tablas*/
+.container__cards {
+    height: 55vh;
+     font-size: large;
+ }
+ /*modooscuro*/
+
+.oscuro{
+    background-color: #1f1f1f;
+    color: #f1eded;
+}
+.textarea{
+    resize: none;
+}
+/*Editar*/
+.contenedor--editar{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 12px 10px 20px 8px rgba(179, 182, 185, 0.7);
+    width: 32vw;
+    font-size: 1.5rem;
+}

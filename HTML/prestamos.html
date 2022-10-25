@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" class="min-vh-100">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sistema de inventario Colegio la independencia SISCONVER">
+    <meta name="author" content="Grupo_2 SISCONVER">
+    <meta name="copyright" content="Copyright SISCONVER 2022 ©">
+    <meta name="keywords" content="HTML, Sistema de inventario">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/newStyle.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="/assets/img/lulogo_PLumita.svg" type="image/x-icon">
+    
+    <title>Prestamos</title>
+
+
+
+
+    <script src="/node_modules/chart.js/dist/chart.min.js"></script>
+
+
+</head>
+
+<body>
+  <!--header-->
+  <header>
+    <nav class="navbar  d-flex justify-content-center align-items-center navbar-expand-lg ">
+      <div class="col-2 justify-content-center d-flex">
+        <div>
+          <img src="/assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="85px">
+        </div>
+      </div>
+      <div class=" col-7  d-flex justify-content-center align-items-center ">
+        <h1 class="text-danger">SYSTEM LIBRARY LA INDEPENDENCIA</h1>
+      </div>
+      <div class="col-sm-2  col-4 d-flex justify-content-end align-items-end ">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Ajustes
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><figure><img src="/assets/img/ayuda.png" alt="" width="30px" height="30px"></figure></li>
+            <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="" width="30px" height="30px"></figure></li>
+            <li><a href="/HTML/tabla_pres_dev.html"><figure><img src="/assets/img/iconos e imagenes/icons8-salida-64.png" alt="" width="30px" height="30px"></figure></a></li>
+            
+          </ul>
+        </div>
+  
+  
+  
+    </div>
+  
+  
+     
+    </nav>
+   </header>
+
+    <main class="container container-sm container-md container-lg">
+      <div class=" Contenedor--login d-flex flex-column  ">
+        <form action="" class="contenedor_form_usuarios d-flex flex-row justify-content-center rounded-5 align-items-center  text-center needs-validation" novalidate>
+            <div class="row  d-flex justify-content-center align-items-center ">
+                <h1 class="d-flex justify-content-center h1">Prestamos</h1>
+                <!--colform1-->
+                <div class="col-6 col-sm-6 contenedor_f  ">
+                  <label for="Fecha" class="form-label  ">Fecha del prestamo</label>
+                  <input type="date" class="form-control form-control-lg" aria-describedby="emailHelp" required>
+                  <label for="Fechad" class="form-label">Fecha de la devolucion</label>
+                  <input type="date" class="form-control form-control-lg"  required>
+                      <label for="exampleFormControlTextarea1" class="form-label">Novedades:</label>
+                      <textarea class="form-control form-control-lg textarea" name="textarea" id="exampleFormControlTextarea1"cols="30" rows="1"  required placeholder="Novedad..."></textarea>
+                </div>
+            <!--colform2-->  
+                <div class=" col-6 col-sm-6 contenedor_f  ">
+                  <label for="Nombre del Alumno" class="form-label">Nombre del Alumno</label>
+                  <input type="Text" class="form-control form-control-lg" placeholder="Digite el nombre del alumno" required>
+                  <label for="material">Escoga el material a prestar</label>
+            <input name="material" placeholder="Escoja material" required list="material"
+              class="form-control text-center form-control-lg">
+            <datalist id="material">
+              <option value="Libro">Libro</option>
+              <option value="Elemento_ludo-educativo">Elemento_ludo-educativo</option>
+              <option value="Otro">Otro</option>
+            </datalist>
+                    <label for="Nombre del Prestador" class="form-label">Nombre del Prestador</label>
+                    <input type="text" class="form-control form-control-lg" placeholder="Digite el nombre del prestador" required>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto m-4"> 
+                    <button type="submit" class="btn btn-lg   button btn-warning text-light">Prestar</button>
+                   <button type="button" class="btn btn-lg btn-primary"><a href="Libros_Cards_.html" class="text-white text-decoration-none">Cancelar</a></button> 
+                </div>
+                </div>
+            </form>
+      </div>
+    </main>
+      
+ 
+    
+  </div>
+  <!--fopter-->
+  <footer class="py-5 ">
+    <div class="col-12 d-flex  justify-content-around align-items-center ">
+        <div class=""><img src="/assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
+        <div class=""><a
+                href="https://api.whatsapp.com/send/?phone=%2B573108580280&text&type=phone_number&app_absent=0"><img
+                    src="/assets/img/icons8-whatsapp.svg"></a> </div>
+        <div class=""><img src="/assets/img/icons8-phone.svg" alt="" class=" "></div>
+    </div>
+    <div class="col">
+        <p class=" text-center fs-4">Copyright SISCONVER 2022 © </p>
+    </div>
+</footer>
+  <!--script-->
+
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/Graficas/modooscuro.js"></script>
+<script src="/Graficas/valida.js"></script>
+</body>
+
+</html>
