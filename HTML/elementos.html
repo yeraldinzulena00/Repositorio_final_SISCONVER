@@ -50,19 +50,22 @@
                 <a class="nav-link nav-item  " href="tabla_pres_dev.html">
                     <h2 class="  ">Prestamos </h2>
                 </a>
+                <a href="tabla_sanciones.html" class="nav-link nav-item">
+                    <h2>Sanciones</h2>
+                </a>
             </div>
             <div class="col-sm-1  col-12 d-flex justify-content-end align-items-center ">
 
 
                 <div class="  dropdown ">
-                    <button class="btn  dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown"
+                    <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Opciones
                     </button>
                     <ul class="dropdown-menu">
-                        <li><figure><img src="/assets/img/ayuda.png" alt="" width="30px" height="30px"></figure></li>
-                        <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="" width="30px" height="30px"></figure></li>
-                        <li><a href="home.html"><figure><img src="/assets/img/iconos e imagenes/icons8-salida-64.png" alt="" width="30px" height="30px"></figure></a></li>
+                        <li><figure><img src="/assets/img/ayuda.png" alt="ayuda" title="Ayuda" width="30px" height="30px"></figure></li>
+                        <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="modooscuro" title="Modo oscuro" width="30px" height="30px"></figure></li>
+                        <li><a href="home.html"><figure><img src="/assets/img/iconos e imagenes/icons8-salida-64.png" alt="salir" title="Salir" width="30px" height="30px"></figure></a></li>
                     </ul>
                 </div>
 
@@ -79,7 +82,7 @@
     <main class="container-sm container-md   ">
 
 
-        <h2 class="text-center py-3">Panel de estadisticas</h2>
+        <h2 class="text-center py-3 mt-5">Panel de estadisticas</h2>
         <!--panel-->
 
 
@@ -128,17 +131,20 @@
         <!---->
         <!--cards-->
 
-        <section class="container row  mt-5 libros--grid">
+        <section class="container row  mt-5 libros--grid d-flex justify-content-end">
 
-            <form class="d-flex col-sm-6 py-3" role="search">
-                <input class="form-control me-2 py-4" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex col-sm-5 py-3" role="search">
+                <input class="form-control py-4" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-primary btn-lg py-4" type="submit">Buscar</button>
 
 
             </form>
 
             <div class="col-sm-6 justify-content-center d-flex align-items-center ">
-                <button type="button" class="btn btn-light   text-white " data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="/assets/img/icons8-add-100.png" alt="añadir" width="50px" height="50px"></button>
+                <button type="button" class="btn btn-light   text-dark " data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="/assets/img/icons8-add-100.png" alt="añadir" width="50px" height="50px"><br>
+                    Añadir
+
+                </button>
         
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -190,6 +196,152 @@
 
         <div class="container container__cards m-4  row justify-content-around d-flex align-items-start ">
 
+            <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
+                <div class="row mt-1">
+                    <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
+
+                        <figure>
+                            <img src="/assets/img/estrategia-de-negocios.png" alt="foto libro" height="150px">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" d-flex  m-auto flex-column">
+                    <h2>Titulo:Ajedrez</h2>
+                    <h3>Tema:Juego de mesa</h3>
+                    <h4>Cantidad:200</h4>
+
+                </div>
+
+
+                <div class="row d-flex justify-content-around align-items-end ">
+
+
+
+                    <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
+                    <button type="button" class="btn btn-success col-3  m-2 py-2" > <a href="prestamos.html" class="text-decoration-none text-white">Prestar</a> </button>
+                    <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="EditarElementos.html" class="text-decoration-none text-white">Editar</a> </button>
+
+                </div>
+
+            </div>
+
+            
+            <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
+                <div class="row mt-1">
+                    <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
+
+                        <figure>
+                            <img src="/assets/img/estrategia-de-negocios.png" alt="foto libro" height="150px">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" d-flex  m-auto flex-column">
+                    <h2>Titulo:Ajedrez</h2>
+                    <h3>Tema:Juego de mesa</h3>
+                    <h4>Cantidad:200</h4>
+
+                </div>
+
+
+                <div class="row d-flex justify-content-around align-items-end ">
+
+
+
+                    <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
+                    <button type="button" class="btn btn-success col-3  m-2 py-2" > <a href="prestamos.html" class="text-decoration-none text-white">Prestar</a> </button>
+                    <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="EditarElementos.html" class="text-decoration-none text-white">Editar</a> </button>
+
+                </div>
+
+            </div>
+            
+            <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
+                <div class="row mt-1">
+                    <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
+
+                        <figure>
+                            <img src="/assets/img/estrategia-de-negocios.png" alt="foto libro" height="150px">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" d-flex  m-auto flex-column">
+                    <h2>Titulo:Ajedrez</h2>
+                    <h3>Tema:Juego de mesa</h3>
+                    <h4>Cantidad:200</h4>
+
+                </div>
+
+
+                <div class="row d-flex justify-content-around align-items-end ">
+
+
+
+                    <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
+                    <button type="button" class="btn btn-success col-3  m-2 py-2" > <a href="prestamos.html" class="text-decoration-none text-white">Prestar</a> </button>
+                    <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="EditarElementos.html" class="text-decoration-none text-white">Editar</a> </button>
+
+                </div>
+
+            </div>
+            
+            <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
+                <div class="row mt-1">
+                    <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
+
+                        <figure>
+                            <img src="/assets/img/estrategia-de-negocios.png" alt="foto libro" height="150px">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" d-flex  m-auto flex-column">
+                    <h2>Titulo:Ajedrez</h2>
+                    <h3>Tema:Juego de mesa</h3>
+                    <h4>Cantidad:200</h4>
+
+                </div>
+
+
+                <div class="row d-flex justify-content-around align-items-end ">
+
+
+
+                    <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
+                    <button type="button" class="btn btn-success col-3  m-2 py-2" > <a href="prestamos.html" class="text-decoration-none text-white">Prestar</a> </button>
+                    <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="EditarElementos.html" class="text-decoration-none text-white">Editar</a> </button>
+
+                </div>
+
+            </div>
+            
+            <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
+                <div class="row mt-1">
+                    <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
+
+                        <figure>
+                            <img src="/assets/img/estrategia-de-negocios.png" alt="foto libro" height="150px">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" d-flex  m-auto flex-column">
+                    <h2>Titulo:Ajedrez</h2>
+                    <h3>Tema:Juego de mesa</h3>
+                    <h4>Cantidad:200</h4>
+
+                </div>
+
+
+                <div class="row d-flex justify-content-around align-items-end ">
+
+
+
+                    <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
+                    <button type="button" class="btn btn-success col-3  m-2 py-2" > <a href="prestamos.html" class="text-decoration-none text-white">Prestar</a> </button>
+                    <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="EditarElementos.html" class="text-decoration-none text-white">Editar</a> </button>
+
+                </div>
+
+            </div>
+            
             <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
                 <div class="row mt-1">
                     <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">

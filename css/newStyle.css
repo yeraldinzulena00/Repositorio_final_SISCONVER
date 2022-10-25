@@ -121,6 +121,15 @@ color: var(--color_letra);
     box-shadow: 12px 10px 20px 8px rgba(51, 52, 53, 0.7);
 }
 
+/*Prestar*/
+.contenedor_form_prestamos{
+    width: 45%;
+    height: 70%;
+    background-color: #fff;
+
+    font-family: 'Krub', sans-serif;
+    box-shadow: 12px 10px 20px 8px rgba(51, 52, 53, 0.7);
+}
 
 /*panel*/
 .usu_a {
@@ -260,4 +269,3 @@ background-color: #fff;
     font-size: 'Krub';
     font-size: 1rem;
 }
-/*recuperar*/

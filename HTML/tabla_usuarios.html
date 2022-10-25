@@ -21,16 +21,17 @@
     <nav class="  sticky-top d-flex border  ">
 
 
-        <div class="col-sm-4 col-5 d-flex justify-content-center align-items-center ">
-            <img class="" src="/assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="100px">
-            <h1 class="p-1 text-danger">SISCONVER LIBRARY SYS</h1>
-        </div>
+        
+      <div class="col-sm-3 col-12 d-flex justify-content-center align-items-center ">
+        <img class="" src="/assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="100px">
+        <h1 class="p-1 text-danger">SISCONVER LIBRARY SYS</h1>
+    </div>
 
 
 
 
 
-        <div class="col-12 col-sm-5 justify-content-between d-flex align-items-center p-1 ">
+        <div class="col-12 col-sm-8 justify-content-around d-flex align-items-center p-1 ">
             <a class="nav-link nav-item active letra" aria-current="page" href="Libros_Cards_.html">
                 <h2 class=" ">Libros </h2>
             </a>
@@ -40,9 +41,12 @@
             <a class="nav-link nav-item " href="tabla_pres_dev.html">
                 <h2 class=" ">Prestamos</h2>
             </a>
+            <a href="tabla_sanciones.html" class="nav-item nav-link">
+              <h2>Sanciones</h2>
+            </a>
            
         </div>
-        <div class="col-sm-3  col-4 d-flex justify-content-around align-items-end ">
+        <div class="col-sm-1  col-12 d-flex justify-content-end align-items-center ">
            
 
             <div class="  dropdown ">
@@ -51,9 +55,9 @@
                     Opciones
                 </button>
                 <ul class="dropdown-menu">
-                  <li><figure><img src="/assets/img/ayuda.png" alt="" width="30px" height="30px"></figure></li>
-            <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="" width="30px" height="30px"></figure></li>
-            <li><a href="home.html"><figure><img src="/assets/img/iconos e imagenes/icons8-salida-64.png" alt="" width="30px" height="30px"></figure></a></li>
+                  <li><figure><img src="/assets/img/ayuda.png" alt="ayuda" title="Ayuda" width="30px" height="30px"></figure></li>
+            <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="modooscuro" title="modo oscuro" width="30px" height="30px"></figure></li>
+            <li><a href="home.html"><figure><img src="/assets/img/iconos e imagenes/icons8-salida-64.png" alt="Salir" title="Salir" width="30px" height="30px"></figure></a></li>
                 </ul>
             </div>
 
@@ -66,7 +70,7 @@
   <!--panel-->
   <main class="container container-sm container-md container-lg">
    
-      <h1 class="text-center h1_panel m-auto col-12 mt-4">Panel de estadisticas</h1>
+      <h2 class="text-center py-3 mt-5">Panel de estadisticas</h2>
       <section class=" d-flex flex-grow-1 flex-wrap justify-content-around align-items-center  p-5">
 
         <div class="col-12 col-sm-2 bg-light border rounded-4 d-flex usu_a p-1 flex-column justify-content-center align-items-center">
@@ -99,7 +103,7 @@
 
     <div class="row justify-content-around d-flex mt-5">
       <div class="col-sm-5 col-12 d-flex">
-        <input class="form-control  me-2 input-lg form-control-lg" type="search" placeholder="Buscar" aria-label="Search">
+        <input class="form-control  me-2 input-lg form-control-lg py-4" type="search" placeholder="Buscar" aria-label="Search">
   
   
         <button class="btn  btn-primary" type="submit">Buscar</button>
@@ -134,10 +138,10 @@
               <th scope="col">Rol</th>
               <th scope="col">Correo</th>
               <th scope="col">Curso</th>
-              <th scope="col">Numero documento</th>
-              <th scope="col">Tipo Documento</th>
+              <th scope="col">N° doc.</th>
+              <th scope="col"> Doc</th>
               <th scope="col">Estado</th>
-              <th scope="col">Modificar</th>
+              <th scope="col">Editar</th>
             </tr>
           </thead>
           <tbody class="table-light">
@@ -145,9 +149,9 @@
               <th scope="row">Pepito</th>
               <td>Perez</td>
               <td>345789456</td>
-              <td>Estudiante</td>
-              <td>name@example</td>
-              <td>octavo</td>
+              <td>Estud.</td>
+              <td>name@exa</td>
+              <td>8</td>
               <td>123456789</td>
               <td>T.I</td>
               
@@ -158,9 +162,9 @@
               <th scope="row">Pepito</th>
               <td>Perez</td>
               <td>345789456</td>
-              <td>Estudiante</td>
-              <td>name@example</td>
-              <td>octavo</td>
+              <td>Estud.</td>
+              <td>name@exa</td>
+              <td>8</td>
               <td>123456789</td>
               <td>T.I</td>
               
@@ -170,9 +174,9 @@
               <th scope="row">Pepito</th>
               <td>Perez</td>
               <td>345789456</td>
-              <td>Estudiante</td>
-              <td>name@example</td>
-              <td>octavo</td>
+              <td>Estud.</td>
+              <td>name@exa</td>
+              <td>8</td>
               <td>123456789</td>
               <td>T.I</td>
               
