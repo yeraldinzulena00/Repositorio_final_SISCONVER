@@ -269,3 +269,7 @@ background-color: #fff;
     font-size: 'Krub';
     font-size: 1rem;
 }
+#buscar{
+    background: url(/assets/img/icons8-search-32.png) no-repeat;
+    text-align: center;
+}
