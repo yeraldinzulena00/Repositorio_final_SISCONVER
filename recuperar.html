@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link rel="stylesheet" href="/css/newStyle.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="/assets/img/lulogo_PLumita.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="description" content="Sistema de inventario Colegio la independencia SISCONVER">
+  <meta name="author" content="Grupo_2 SISCONVER">
+  <meta name="copyright" content="Copyright SISCONVER 2022 ©">
+  <meta name="keywords" content="HTML, Sistema de inventario">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/newStyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/lulogo_PLumita.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Krub:ital,wght@1,200&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
    
    
     <title>Recuperar</title>
@@ -17,7 +25,7 @@
   <nav class="navbar  d-flex justify-content-center align-items-center navbar-expand-lg ">
     <div class="col-2 justify-content-center d-flex">
       <div>
-        <img src="/assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="85px">
+        <img src="assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="85px">
       </div>
     </div>
     <div class=" col-7  d-flex justify-content-center align-items-center ">
@@ -29,8 +37,8 @@
           Ajustes
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><figure><img src="/assets/img/ayuda.png" alt="" width="30px" height="30px"></figure></li>
-          <li><figure id="bdark" onclick="cambiarModo()"><img src="/assets/img/sol.png" alt="" width="30px" height="30px"></figure></li>
+          <li><figure><img src="assets/img/ayuda.png" alt="" width="30px" height="30px"></figure></li>
+          <li><figure id="bdark" onclick="cambiarModo()"><img src="assets/img/sol.png" alt="" width="30px" height="30px"></figure></li>
          
           
         </ul>
@@ -43,8 +51,8 @@
 
 
 <main class="container container-md container-sm container-lg">
-<section class="Contenedor--login d-flex flex-column col-12">
- <div class="Contenedor__login--Formulario col-12 h-60 d-flex flex-column justify-content-around align-items-center">
+<section class="Contenedor--login d-flex flex-column col-12 col-sm-12 justify-content-center align-items-center">
+ <div class="Contenedor__login--Formulario col-12 col-sm-4 col-md-4 h-60 d-flex flex-column justify-content-around align-items-center">
   <form action=" " class="  " >
     <h2 class="text-center"> recuperacion de contraseña</h2>
 
@@ -142,22 +150,21 @@
     
         <footer class="py-5 ">
           <div class="col-12 d-flex  justify-content-around align-items-center ">
-              <div class=""><img src="/assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
+              <div class=""><img src="assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
               <div class=""><a
                       href="https://api.whatsapp.com/send/?phone=%2B573108580280&text&type=phone_number&app_absent=0"><img
-                          src="/assets/img/icons8-whatsapp.svg"></a> </div>
-              <div class=""><img src="/assets/img/icons8-phone.svg" alt="" class=" "></div>
+                          src="assets/img/icons8-whatsapp.svg"></a> </div>
+              <div class=""><img src="assets/img/icons8-phone.svg" alt="" class=" "></div>
           </div>
           <div class="col">
               <p class=" text-center fs-4">Copyright SISCONVER 2022 © </p>
           </div>
       </footer>
-      <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-        <script src="/Graficas/valida.js"></script>
-      <script src="/Graficas/registro.js"></script>
-      
-      <script src="/Graficas/modooscuro.js"></script>
+      <script src="js/modooscuro.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/valida.js"></script>
+    <script src="js/registro.js"></script>
     
 </body>
 </html>
