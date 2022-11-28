@@ -87,7 +87,7 @@ footer {
 
 .Contenedor--login {
 
-    height: 78vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,6 +117,7 @@ footer {
 color: var(--color_letra);
     border: solid 3px rgba(179, 182, 185, 0.548);
     font-family: 'Krub';
+
 }
 /*usuarios*/
 .contenedor_form_usuarios {

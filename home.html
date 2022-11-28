@@ -31,112 +31,102 @@
 <body class="">
     <!--header-->
    
-<header>
-    <nav class="  sticky-top  container-fluid  ">
 
 
-        <div class="row">
-
-        <div class="col-sm-2 col-12 d-flex justify-content-center align-items-center ">
-            <img class="" src="assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="100px">
-            <h1 class="p-1 text-danger">SISCONVER LIBRARY SYS</h1>
+    <header class="navbar navbar-dark sticky-top bg-light flex-md-nowrap p-0 shadow ">
+       
+        <div class="col-sm-4 col-4 d-flex justify-content-center align-items-center ">
+            <img class="" src="assets/img/escudo-colegio-nombre.png" alt="Logo colegioS" width="100px" height="100px">
+            <h1 class="p-1 text-danger">I.E. La independencia</h1>
         </div>
-
-
-
-
-
-        <div class="col-12 col-sm-6 justify-content-around d-flex align-items-center  ">
-            <a class="nav-link nav-item active letra" aria-current="page" href="cards.html">
-                <h2 class=" ">Libros </h2>
-            </a>
-            <a class="nav-link nav-item  " href="elementos.html ">
-                <h2 class="  ">Elementos </h2>
-            </a>
-            <a class="nav-link nav-item " href="tabla_usuarios.html">
-                <h2 class=" ">Usuarios</h2>
-            </a>
-            <a class="nav-link nav-item  " href="tabla_pres_dev.html">
-                <h2 class="  ">Prestamos </h2>
-            </a>
-            <a href="tabla_sanciones.html" class="nav-link nav-item">
-                <h2>Sanciones</h2></a>
-        </div>
-        <div class="col-sm-4  col-12 d-flex justify-content-around align-items-center">
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <h3>Hola Bienvenido: admin</h3>
-                <figcaption class=" border-1 bg-primary rounded-circle ">
-                    
-                    <img src="assets/img/trabajando.png" class="rounded-circle " alt="imagen de perfil" width="40px"
-                        height="40px">
-                </figcaption>
-            </div>
-           
-
-            <div class="  dropdown ">
-                <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Opciones
-                </button>
-                <ul class="dropdown-menu">
-                    <li><figure><img src="assets/img/ayuda.png" alt="Ayuda" width="30px" title="Ayuda" height="30px"></figure></li>
-            <li><figure id="bdark" onclick="cambiarModo()"><img src="assets/img/sol.png" alt="Accessibility" title="Modo oscuro" width="30px" height="30px"></figure></li>
-            <li><a href="index.html"><figure><img src="assets/img/iconos e imagenes/icons8-salida-64.png" alt="salir" title="Cerrar sesión" width="30px" height="30px"></figure></a></li>
-                </ul>
-            </div>
-
-
-
-        </div>
+        
+    <div class="col-6 col-sm-6 justify-content-between d-flex align-items-center  ">
+        <a class="nav-link nav-item active letra" aria-current="page" href="Libros_Cards_.html">
+            <h3 class=" ">Libros </h3>
+        </a>
+        <a class="nav-link nav-item  " href="elementos.html ">
+            <h3 class="  ">Elementos </h3>
+        </a>
+        <a class="nav-link nav-item " href="tabla_usuarios.html">
+            <h3 class=" ">Usuarios</h3>
+        </a>
+        <a class="nav-link nav-item  " href="tabla_pres_dev.html">
+            <h3 class="  ">Prestamos </h3>
+        </a>
+        <a href="tabla_sanciones.html" class="nav-link nav-item">
+            <h3>Sanciones</h3></a>
     </div>
-    </nav>
+  
+      
+    <a class="nav-link nav-profile d-flex align-items-center pe-0 " href="#" data-bs-toggle="dropdown">
+      <img src="assets/img/trabajando.png" alt="Profile" width="40px" height="50px" class="rounded-circle">
+      <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+      <li class="dropdown-header">
+        <h6>Kevin Anderson</h6>
+        <span>Web Designer</span>
+      </li>
+   
+
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="Editarperfil.html">
+          <i class="bi bi-person"></i>
+          <span>My Profile</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+          <i class="bi bi-gear"></i>
+          <span>Account Settings</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>Need Help?</span>
+        </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+
+      <li>
+        <a class="dropdown-item d-flex align-items-center" href="#">
+          <i class="bi bi-box-arrow-right"></i>
+          <span>Sign Out</span>
+        </a>
+      </li>
+
+    </ul>
+    
+ 
+
+  
+
+    
+  
+
+
+
+
+
 </header>
    
-    <main class="container-sm container-md container-lg">
+    <main class="container-sm container-md container-lg ">
     <!--panel-->
     <h3 class="text-center  m-auto col-12 mt-5">PANEL DE ESTADISTICAS</h3>
 
-    <section class=" d-flex flex-grow-1 flex-wrap justify-content-around align-items-center  p-5">
-
-        <div class="col-12 col-sm-2 bg-light border rounded-4 d-flex usu_a p-1 flex-column justify-content-center align-items-center">
-            <img src="assets/img/trabajando.png" alt="" height="50px" width="50px" >
-            <div class="d-flex justify-content-center align-items-center flex-column">
-                <h2>Usuarios</h2>
-                <h2>Total:200000</h2>
-            </div>
-        </div>
-        <div class="col-12 col-sm-2 bg-light rounded-4 border d-flex usu_2 flex-column justify-content-center align-items-center  ">
-            <img src="assets/img/dado.png" alt="" height="50px" width="50px">
-            <div class="d-flex justify-content-center align-items-center flex-column">
-                <h2>Elementos</h2>
-                <h2>Total:123</h2>
-            
-            </div>
-        </div>
-        <div class="col-12 col-sm-2 bg-light d-flex usu_3 border rounded-4 flex-column justify-content-center align-items-center ">
-            <img src="assets/img/icons8-ibooks.svg" alt="" height="50px" width="50px">
-            <div class="d-flex justify-content-center align-items-center flex-column">
-                <h2>Libros</h2>
-                <h2>Total:123</h2>
-              
-            </div>
-        </div>
-        <div class="col-12 col-sm-2 bg-light d-flex usu_4 border  rounded-4 flex-column justify-content-center align-items-center ">
-            <img src="assets/img/pedir-prestado.png" alt="" height="50px" width="50px">
-            <div class="d-flex justify-content-center align-items-center flex-column">
-                <h2>Prestamos</h2>
-                <h2>Total:12</h2>
-            </div>
-        </div>
-        <div class="col-12 col-sm-2 bg-light d-flex usu_5 border rounded-4 flex-column justify-content-center align-items-center ">
-            <img src="assets/img/return.png" alt="" height="50px" width="50px">
-            <div class="d-flex justify-content-center align-items-center flex-column">
-                <h3>Devoluciones</h3>
-                <h2>Pendientes:10</h2>
-            </div>
-        </div>
-    </section>
-    
+   
 
         <!--graficas-->
 
@@ -150,22 +140,13 @@
                 <canvas id="myChart"></canvas>
             </div>
         </div>
-    </main> <!---->
-
-
-
-
-
-
-
-    
-    <footer class=" mt-5 py-3">
-        <div class="col-12 d-flex  justify-content-around align-items-center py-5">
-            <div class=""><img src="assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
-            <div class=""><a
-                    href="https://api.whatsapp.com/send/?phone=%2B573108580280&text&type=phone_number&app_absent=0"><img
-                        src="assets/img/icons8-whatsapp.svg"></a> </div>
-            <div class=""><img src="assets/img/icons8-phone.svg" alt="" class=" "></div>
+    </main>
+    <footer class="py-4 ">
+        <div class="col-12 d-flex  justify-content-around align-items-center static-bottom">
+          <a href="https://www.facebook.com/IndependenciaIE/"><img src="assets/img/icons8-facebook.svg" alt="" class=" " width="48px"></a>
+            <a href="https://twitter.com/IndependenciaIE"><img
+                        src="assets/img/icons8-twitter.svg"></a>
+            <a href="http://www.ie-independencia.edu.co/"><img src="assets/img/icons8-geography-50.png" alt="" class=" "></a>
         </div>
         <div class="col">
             <p class=" text-center fs-4">Copyright SISCONVER 2022 © </p>
