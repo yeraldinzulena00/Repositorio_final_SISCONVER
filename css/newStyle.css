@@ -46,8 +46,10 @@ html {
 
 nav{
     font-family: 'Krub';
-    background: var(--blaco);
-    box-shadow: var(--box);
+    background: #ffffff;
+    
+   
+    height: 7vh;
    
 }
 
@@ -93,6 +95,11 @@ footer {
     font-family: 'Krub';
 
 
+}
+
+.wilsone{
+
+    height: 100vh;
 }
 
 
@@ -199,7 +206,7 @@ color: var(--color_letra);
 
 #grafica{
     max-width: 400px;
-    max-height: 400px;
+    max-height: 300px;
     font-family: 'Krub';
 }
 #myChart{

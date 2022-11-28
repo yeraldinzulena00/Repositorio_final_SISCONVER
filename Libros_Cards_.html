@@ -9,408 +9,440 @@
     <meta name="keywords" content="HTML, Sistema de inventario">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="css/newStyle.css">
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="style.css">
-      <link rel="shortcut icon" href="assets/img/lulogo_PLumita.svg" type="image/x-icon">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Krub:ital,wght@1,200&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/newStyle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/lulogo_PLumita.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Krub:ital,wght@1,200&family=Quicksand:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
 
 
 </head>
 
 
-<body>
-    <!--header-->
-    <header>
-        <nav class="  sticky-top  container-fluid  ">
-    
-    
-            <div class="row">
-    
-            <div class="col-sm-2 col-12 d-flex justify-content-center align-items-center ">
+<body class="bg-white">
+
+    <div class="container-fluid  d-flex  wilsone">
+        <div class="col-2  flex-column d-flex ">
+
+
+
+
+            <div class=" d-flex justify-content-center align-items-center flex-column ">
                 <img class="" src="assets/img/lulogo_PLumita.svg" alt="Logo colegioS" width="200px" height="100px">
-                <h1 class="p-1 text-danger">SISCONVER LIBRARY SYS</h1>
+
             </div>
-    
-    
-    
-    
-    
-            <div class="col-12 col-sm-6 justify-content-around d-flex align-items-center  ">
-                <a class="nav-link nav-item active letra" aria-current="page" href="elementos.html">
-                    <h2 class=" ">Elementos</h2>
+
+
+
+            <div class="flex-shrink-0 p-3 bg-white " style="width: 200px; ">
+                <a href="/" class="d-flex align-items-center pb-3 mb-3  text-decoration-none border-bottom">
+                    <svg class="bi pe-none me-2" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <h1 class="">Menu</h1>
                 </a>
-                <a class="nav-link nav-item " href="tabla_usuarios.html">
-                    <h2 class=" ">Usuarios</h2>
-                </a>
-                <a class="nav-link nav-item  " href="tabla_pres_dev.html">
-                    <h2 class="  ">Prestamos </h2>
-                </a>
-                <a href="tabla_sanciones.html" class="nav-link nav-item">
-                    <h2>Sanciones</h2></a>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#libros-collapse" aria-expanded="false">
+                            <h2>Opciones</h2>
+                        </button>
+                        <div class="collapse" id="libros-collapse">
+                            <ul class="btn-toggle-nav list-unstyled  pb-1 ">
+                                <h4>
+                                    <li><a href="#" class=" d-inline-flex text-decoration-none rounded m-2">Añadir
+                                            Elemento</a></li>
+                                </h4>
+                                <h4>
+                                    <li><a href="prestamos.html"
+                                            class=" d-inline-flex text-decoration-none rounded m-2">
+                                            Realizar Prestamo</a></li>
+                                </h4>
+
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#Categoria-collapse" aria-expanded="false">
+                            <h3>Categorias Literarias</h3>
+                        </button>
+                        <div class="collapse" id="Categoria-collapse">
+                            <ul class="btn-toggle-nav list-unstyled  pb-1 ">
+                                <h4>
+                                    <li><a href="Libros_Cards_.html"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Matematicas</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Ciencias
+                                            Naturales</a></li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Español</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Cuentos</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Mitos y
+                                            leyendas</a></li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Historia</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Agronomia</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Quimica</a>
+                                    </li>
+                                </h4>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#Categoria2-collapse" aria-expanded="false">
+                            <h3>Categorias Elemetos</h3>
+                        </button>
+                        <div class="collapse" id="Categoria2-collapse">
+                            <ul class="btn-toggle-nav list-unstyled  pb-1 ">
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Audio</a>
+                                    </li>
+                                </h4>
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded m-2">Elementos
+                                            Ludicos</a></li>
+                                </h4>
+
+
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                            <h2> Cursos</h2>
+                        </button>
+                        <div class="collapse" id="dashboard-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ">
+                                <li class="mb-1">
+                                    <button
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#primaria-collapse"
+                                        aria-expanded="false">
+                                        <h2>Primaria</h2>
+                                    </button>
+                                    <div class="collapse" id="primaria-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled  pb-1 ">
+
+
+                                            <hr>
+
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Primero</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Segundo</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Tercero</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Cuarto</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Quinto</a>
+                                                </li>
+                                            </h4>
+
+                                            <hr>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mb-1">
+                                    <button
+                                        class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                                        data-bs-toggle="collapse" data-bs-target="#secundaria-collapse"
+                                        aria-expanded="false">
+
+                                        <h2>Secundaria</h2>
+                                    </button>
+                                    <div class="collapse" id="secundaria-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled  pb-1 ">
+
+
+                                            <hr>
+
+
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Sexto</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Septimo</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Octavo</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Noveno</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Decimo</a>
+                                                </li>
+                                            </h4>
+                                            <h4>
+                                                <li><a href="#"
+                                                        class="link-dark d-inline-flex text-decoration-none rounded">Undecimo</a>
+                                                </li>
+                                            </h4>
+
+                                            <hr>
+
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                            data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                            <h2>Funcionarios</h2>
+                        </button>
+                        <div class="collapse" id="orders-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <h4>
+                                    <li><a href="#"
+                                            class="link-dark d-inline-flex text-decoration-none rounded">Docentes</a>
+                                    </li>
+                                    <h4>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-top my-3"></li>
+
+                </ul>
             </div>
-            <div class="col-sm-4  col-12 d-flex justify-content-around align-items-center">
-              
-               
-    
-                <div class="  dropdown ">
-                    <button class="btn btn-primary dropdown-toggle btn-lg" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Opciones
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><figure><img src="assets/img/ayuda.png" alt="Ayuda" width="30px" title="Ayuda" height="30px"></figure></li>
-                <li><figure id="bdark" onclick="cambiarModo()"><img src="assets/img/sol.png" alt="Accessibility" title="Modo oscuro" width="30px" height="30px"></figure></li>
-                <li><a href="index.html"><figure><img src="assets/img/iconos e imagenes/icons8-salida-64.png" alt="salir" title="Cerrar sesión" width="30px" height="30px"></figure></a></li>
-                    </ul>
+
+
+
+
+
+
+        </div>
+
+        <div class="col-10 bg-white ">
+
+            <nav class="  sticky-top  container-fluid  d-flex  align-items-center justify-content-evenly ">
+
+
+                <h1 class=" text-danger text-center">SISCONVER LIBRARY SYS</h1>
+
+
+                <h3>Hola Bienvenido: admin</h3>
+
+                <figcaption class=" border-1  rounded-circle ">
+
+                    <img src="assets/img/trabajando.png" class="rounded-circle " alt="imagen de perfil" width="40px"
+                        height="40px">
+                </figcaption>
+
+
+
+
+
+
+
+            </nav>
+
+
+            <div class="row m-1 mt-2 bg-white m-auto container ">
+            
+
+                
+
+                <div class="col-10 m-auto bg-white ">
+
+
+                    <h2 class="text-center m-4 ">Gestionar Libros</h2>
+
+                    <div class="mb-5">
+                        <button class="btn btn-danger py-4" id="Boton_agregar"><h4>Agregar Libro</h4></button>
+                    </div>
+                    <div class="d-flex justify-content-between mb-5 ">
+                        <form class="d-flex col-6" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"> <h4>Buscar</h4> </button>
+                        </form>
+                        <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary p-4">Imprimir</button>
+                            <button type="button" class="btn btn-outline-primary p-4">Pdf</button>
+                            <button type="button" class="btn btn-outline-primary p-4">Exel</button>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <table class="  col-10 table bg-white">
+
+
+                        <thead class="text-center ">
+
+
+                            <tr>
+                                <th scope="col">
+                                    <h3>Titulo</h3>
+                                </th>
+                                <th scope="col">
+                                    <h3> Autor</h3>
+                                </th>
+                                <th scope="col">
+                                    <h3>Cantidad</h3>
+                                </th>
+
+                                <th scope="col">
+                                    <h3>Categoria</h3>
+                                </th>
+                                <th scope="col">
+                                    <h3>Grado</h3>
+                                </th>
+                                <th scope="col">
+                                    <h3>ISBN</h3>
+                                </th>
+                                <th scope="col">
+                                    <h3>Acciones</h3>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-center">
+
+                                <td>
+                                    <h4>Matematicas Basicas</h4>
+                                </td>
+                                <td>
+                                    <h4>Desconocido</h4>
+                                </td>
+                                <td>
+                                    <h4>8</h4>
+                                </td>
+
+
+
+                                <td>
+                                    <h4>Matematicas</h4>
+                                </td>
+                                <td>
+                                    <h4>Septimo</h4>
+                                </td>
+                                <td>
+                                    <h4>ABN-234-556-888</h4>
+                                </td>
+                                <td>
+
+                                    <button class="btn btn-danger py-2" id="Boton">
+                                        <h5>Inactivar</h5>
+                                    </button>
+                                    <button class="btn btn-primary py-2">
+                                        <h5>Editar</h5>
+                                    </button>
+                                    <button class="btn btn-success py-2">
+                                        <h5>Prestar</h5>
+                                    </button>
+
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </div>
-    
-    
-    
+                
             </div>
         </div>
-        </nav>
-    </header>
-    <!--SIde-->
+    </div>
 
-    <!---->
-    <!--contenedor-->
-    <main class="container-sm container-md   ">
-
-     
-            <h2 class="text-center py-3 mt-5">Panel de estadisticas</h2>
-            <!--panel-->
-      
-
-            <section class=" d-flex flex-grow-1 flex-wrap justify-content-around align-items-center  p-3">
-
-                <div class="col-12 col-sm-2 bg-light border rounded-4 d-flex usu_a p-1 flex-column justify-content-center align-items-center">
-                    <img src="assets/img/trabajando.png" alt="" height="50px" width="50px" >
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <h2>Usuarios</h2>
-                        <h2>Total:200000</h2>
-                    </div>
-                </div>
-               
-                <div class="col-12 col-sm-2 bg-light d-flex usu_3 border rounded-4 flex-column justify-content-center align-items-center ">
-                    <img src="assets/img/icons8-ibooks.svg" alt="" height="50px" width="50px">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <h2>Libros</h2>
-                        <h2>Total:123</h2>
-                      
-                    </div>
-                </div>
-                <div class="col-12 col-sm-2 bg-light d-flex usu_4 border  rounded-4 flex-column justify-content-center align-items-center ">
-                    <img src="assets/img/pedir-prestado.png" alt="" height="50px" width="50px">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <h2>Prestamos</h2>
-                        <h2>Total:12</h2>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-2 bg-light d-flex usu_5 border rounded-4 flex-column justify-content-center align-items-center ">
-                    <img src="assets/img/return.png" alt="" height="50px" width="50px">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <h3>Devoluciones</h3>
-                        <h2>Pendientes:10</h2>
-                    </div>
-                </div>
-            </section>
-
-            <!--contenedorsearch-->
+    </div>
 
 
 
-            <!---->
-            <!--cards-->
 
-            <section class="container row  mt-5 libros--grid d-flex justify-content-center">
 
-                <form class="d-flex  col-sm-5 col-12 "  role="search">
-                    <input class="form-control " id="buscar" type="search" placeholder="Search" aria-label="Search" >
-                    <button class="btn btn-primary ms-3" type="submit">Buscar</button>
 
-                   
-                </form>
-
-              
-              
-            <div class="col-sm-6 col-12 justify-content-center d-flex align-items-center ">
-                <button type="button" class="btn btn-light   text-dark " data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="assets/img/icons8-add-100 (2).png" alt="añadir" width="40px" height="40px">
-
-                    Añadir
-                
-                </button>
-        
-        <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="fs-1 h1">Agregar</h1>
-        
-                
-        
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form action="" class="Contenedor__Registro--Formulario rounded-5 text-center  needs-validation " method="post"
-            enctype="multipart/form-data" target="self" id="form" novalidate >
-            <label for="" class="fw-bold">ID</label>
-            <input type="number" required placeholder="##" class="form-control form-control-lg">
-            <label for="" class="fw-bold">Nombre</label>
-            <input type="text" required placeholder="Nombre libro"
-                class="form-control form-control-lg">
-            <label for="" class="fw-bold">Autor</label>
-            <input type="text" required placeholder="Nombre autor"
-                class="form-control form-control-lg">
-            <label for="" class="fw-bold">Cantidad</label>
-            <input type="number" required placeholder="##" class="form-control form-control-lg">
-            <label for=""  class="fw-bold">Tema</label>
-            <input type="text" required placeholder="tema" class="form-control form-control-lg">
-            <label for="estado" class="fw-bold">Estados</label>
-            <input name="estado" required list="estado" placeholder="Estado libro"
-                class="form-control form-control-lg">
-            <datalist id="estado">
-                <option value="Active">Activo</option>
-                <option value="Disable">Inactivo</option>
-            </datalist>
-                  
-              <!--boton-->
-              
-              <button type="button" class="btn btn-danger btn-lg col-7 mt-4" data-bs-dismiss="modal">Volver</button>
-              <button type="button" class="btn btn-primary btn-lg col-7 mt-4" >Añadir</button>
-              <!---->
-            </div>
-        </form>
-              </div>
-              
-               
-             
-            </div>
-          </div>
+    <footer class=" mt-5 py-3">
+        <div class="col-12 d-flex  justify-content-around align-items-center py-5">
+            <div class=""><img src="assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
+            <div class=""><a
+                    href="https://api.whatsapp.com/send/?phone=%2B573108580280&text&type=phone_number&app_absent=0"><img
+                        src="assets/img/icons8-whatsapp.svg"></a> </div>
+            <div class=""><img src="assets/img/icons8-phone.svg" alt="" class=" "></div>
         </div>
+        <div class="col">
+            <p class=" text-center fs-4">Copyright SISCONVER 2022 © </p>
+        </div>
+    </footer>
 
-           
-            </section>
 
+    <!--script-->
+    <script src="js/modooscuro.js"></script>
 
-            <div class="container container__cards m-4  row justify-content-around d-flex align-items-start ">
+    <script src="js/valida.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
+    <script src="js/sweet.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-                <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"><a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="editar.html" class="text-white text-decoration-none"> Editar</a></button>
-
-                    </div>
-
-                </div>
-
-
-                <div class="card col-12 col-sm-3  mt-3 d-flex  rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"> <a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"><a href="editar.html" class="text-white text-decoration-none">Editar</a> </button>
-
-                    </div>
-
-                </div>
-
-                <div class="card col-12 col-sm-3 mt-3 d-flex  rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"> <a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"> <a href="editar.html" class="text-white text-decoration-none">Editar</a> </button>
-
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="card  col-12 col-sm-3 mt-3 d-flex m-4 rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"> <a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"> <a href="editar.html" class="text-white text-decoration-none">Editar</a> </button>
-
-                    </div>
-
-                </div>
-
-                <div class="card col-12 col-sm-3  mt-3 d-flex m-4 rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"> <a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"> <a href="editar.html" class="text-white text-decoration-none">Editar</a> </button>
-
-                    </div>
-
-                </div>
-
-                <div class="card col-12 col-sm-3  mt-3 d-flex m-4 rounded-4 usu_a ">
-                    <div class="row mt-1">
-                        <div class="col-12 mt-0 justify-content-center img align-items-center d-flex ">
-
-                            <figure>
-                                <img src="assets/img/libro.png" alt="foto libro" height="150px" >
-                            </figure>
-                        </div>
-                    </div>
-                        <div class=" d-flex  m-auto flex-column">
-                            <h2>Titulo:Matematicas 9</h2>
-                            <h3>Tema:Matematicas</h3>
-                            <h3>Autor:Gabriel jesus orduna martinez</h3>
-                            <h4>Cantidad:40000</h4>
-
-                        </div>
-
-                    
-                    <div class="row d-flex justify-content-around align-items-end ">
-
-
-
-                        <button type="button" class="btn btn-danger col-3 m-2 py-2">Eliminar</button>
-                        <button type="button" class="btn btn-success col-3  m-2 py-2"> <a href="prestamos.html" class="text-white text-decoration-none">Prestar</a> </button>
-                        <button type="button" class="btn btn-primary  col-3 m-2 py-2"> <a href="editar.html" class="text-white text-decoration-none">Editar</a> </button>
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
-
-
-</main>
-        
-        <footer class=" mt-5 py-3">
-            <div class="col-12 d-flex  justify-content-around align-items-center py-5">
-                <div class=""><img src="assets/img/icons8-facebook-nuevo.svg" alt="" class=" "></div>
-                <div class=""><a
-                        href="https://api.whatsapp.com/send/?phone=%2B573108580280&text&type=phone_number&app_absent=0"><img
-                            src="assets/img/icons8-whatsapp.svg"></a> </div>
-                <div class=""><img src="assets/img/icons8-phone.svg" alt="" class=" "></div>
-            </div>
-            <div class="col">
-                <p class=" text-center fs-4">Copyright SISCONVER 2022 © </p>
-            </div>
-        </footer>
-
-
-        <!--script-->
-        <script src="js/modooscuro.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.bundle.js"></script>
-      <script src="js/valida.js"></script>
-    
 </body>
 
 </html>
